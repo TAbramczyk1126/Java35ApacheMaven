@@ -1,6 +1,6 @@
 package org.nameOfTheDay;
 
-public class nameOfTheDay {
+public class NameOfTheDay {
 
     public static String dayName(int dayNumber) {
         switch (dayNumber) {

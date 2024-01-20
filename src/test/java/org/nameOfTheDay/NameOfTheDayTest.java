@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class nameOfTheDayTest {
+class NameOfTheDayTest {
 
     @Test
     void shouldPrintDayName() {
@@ -12,7 +12,7 @@ class nameOfTheDayTest {
         int dayNumber = 3;
         String expected = "Wednesday";
         // When
-        String actual = nameOfTheDay.dayName(dayNumber);
+        String actual = NameOfTheDay.dayName(dayNumber);
         // Then
         assertEquals(expected, actual);
     }
